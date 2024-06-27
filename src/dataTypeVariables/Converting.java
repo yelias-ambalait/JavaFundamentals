@@ -1,6 +1,7 @@
 package dataTypeVariables;
-
 import java.util.Scanner;
+
+import static packages.PackageJava.addition;
 
 public class Converting {
 
@@ -10,6 +11,8 @@ public class Converting {
     private static final double CM_TO_INCHES = 1 / INCHES_TO_CM;
 
     public static void main(String[] args) {
+
+        addition(5, 9);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -54,4 +57,5 @@ public class Converting {
         }
         scanner.close();
     }
+
 }

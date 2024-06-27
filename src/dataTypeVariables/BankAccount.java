@@ -32,10 +32,10 @@ public class BankAccount {
         account.deposit(500);
         System.out.println("Balance: " + account.getBalance());
 
-        account.withdraw(300.00);
+        account.withdraw(1300.00);
         System.out.println(account.balance);
 
-        double convertedAmount = BankAccount.convertCurrency(100, 1.1);
+        double convertedAmount = BankAccount.convertCurrency(1000, 1.1);
         System.out.println("Converted Amount: " + convertedAmount);
     }
 }
